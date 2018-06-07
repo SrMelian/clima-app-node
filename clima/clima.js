@@ -7,7 +7,7 @@ const getClima = async(lat, lng) => {
         throw new Error('No hay resultados de temperatura');
     }
 
-    return resp.data.main.temp;
+    return resp.data;
 }
 
 module.exports = {
