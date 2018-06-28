@@ -1,14 +1,15 @@
-# Aplicación del Clima - Curso Node
+# Wheather App
+*Training project*
 
-Aplicación de comandos en Node.js que muestra el tiempo en cualquier ciudad del mundo. Basada en peticiones asíncronas a:
-* La [API de Google Maps](https://developers.google.com/maps/documentation/geocoding/start?hl=es-419) para obtener las coordenadas de la ciudad introducida por parámetros
-* La [API de OpenWeatherMap](https://openweathermap.org/current) para obtener el clima actual a partir de las coordenadas.
+Console app in Node.js, show the wheather in any city in the world. Based on asynchronous requests to:
+* The [Google Maps API](https://developers.google.com/maps/documentation/geocoding/start?hl=es-419) to get the coords of the city input by params
+* The [OpenWeatherMap API](https://openweathermap.org/current) to get the current wheather from the coords
 
-## Pasos previos
+## Previous steps
 
-Ejecutar ```$ npm install``` para instalar liberías.
+Run the command ```$ npm install``` to install the packages
 
-## Uso
+## Use
 ```
 node app -d "Sydney Australia"
 ```
